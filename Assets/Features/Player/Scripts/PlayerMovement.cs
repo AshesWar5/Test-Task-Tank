@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Playables;
 
 namespace TestTask.Player
 {

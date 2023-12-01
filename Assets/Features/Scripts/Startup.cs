@@ -25,8 +25,8 @@ namespace TestTask
         {
             _cleaners = new List<ICleaner>();
 
-            _update = InitializeGameUpdate();
             _asyncTask = GetComponent<AsyncTaskService>();
+            _update = InitializeGameUpdate();
 
             var gameConfig = InitializeGameConfig();
             InitializeUIMain();
